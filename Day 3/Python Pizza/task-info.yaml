@@ -1,0 +1,30 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Failed
+feedback:
+  message: "'Welc[21 chars]eliveries!\\nYour final bill is: $25.\\n' != 'Welc[21 chars]eliveries!\\\
+    nlarge pizza\\n(the final prize of the bill is $25\\n'"
+  time: "Wed, 17 Sep 2025 09:09:08 UTC"
+  expected: |
+    Welcome to Python Pizza Deliveries!
+    Your final bill is: $25.
+  actual: |
+    Welcome to Python Pizza Deliveries!
+    large pizza
+    (the final prize of the bill is $25
+record: -1
